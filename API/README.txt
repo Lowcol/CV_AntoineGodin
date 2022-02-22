@@ -1,0 +1,1 @@
+programs that makes request to a pokemon api and return a image, name and id every 30min or so
