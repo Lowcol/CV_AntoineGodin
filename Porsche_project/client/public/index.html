@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://www.porsche.com/favicon.ico">
+    <title>Porsche Canada</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="header"><img
+                    src="https://p4.wallpaperbetter.com/wallpaper/897/207/768/porsche-wallpaper-preview.jpg" width="200"
+                    height="200" alt="Logo"></div>
+            <div class="header"><img src="https://nav.porsche.com/00BC524/series-assets/1920/718.jpg" width="50"
+                    height="25" alt="718"></div>
+            <div class="header"><img src="https://nav.porsche.com/00BC524/series-assets/1920/911.jpg" width="50"
+                    height="25" alt="911"></div>
+            <div class="header"><img src="https://nav.porsche.com/00BC524/series-assets/1920/taycan.jpg" width="50"
+                    height="25" alt="Taycan"></div>
+            <div class="header"><img src="https://nav.porsche.com/00BC524/series-assets/1920/panamera.jpg" width="50"
+                    height="25" alt="Panamera"></div>
+            <div class="header"><img src="https://nav.porsche.com/00BC524/series-assets/1920/macan.jpg" width="50"
+                    height="25" alt="Macan"></div>
+            <div class="header"><img src="https://nav.porsche.com/00BC524/series-assets/1920/cayenne.jpg" width="50"
+                    height="25" alt="Cayenne"></div>
+            <div class="header" style="text-align: center;">
+                <button class="button" id="submit" onclick="ouvrirPage()">Connexion</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Slideshow -->
+    <div class="slideshow-container fade">
+
+        <!-- Images -->
+        <div class="Containers">
+            <div class="MessageInfo">1 / 3</div>
+            <img src="https://files.porsche.com/filestore/image/multimedia/none/rd-2021-homepage-banner-ww-718gt4rs-kw46/normal/19346e95-464c-11ec-80e2-005056bbdc38;sO;twebp/porsche-normal.webp"
+                style="width:100%">
+            <div class="Info" style="text-align: left;">
+                <h1>La nouvelle 718 Cayman GT4 RS.
+                </h1>
+            </div>
+        </div>
+
+        <div class="Containers">
+            <div class="MessageInfo">2 / 3</div>
+            <img src="https://files.porsche.com/filestore/image/multimedia/none/rd-2021-homepage-banner-ww-taycangts-kw46rd-2021-homepage-banner-ww-taycangts-kw46/normal/7194bdc1-464c-11ec-80e2-005056bbdc38;sO;twebp/porsche-normal.webp"
+                style="width:100%">
+            <div class="Info" style="text-align: left;">
+                <h1>La nouvelle Taycan</h1>
+            </div>
+        </div>
+
+        <div class="Containers">
+            <div class="MessageInfo">3 / 3</div>
+            <img src="https://files.porsche.com/filestore/image/multimedia/none/rd-2021-homepage-banner-ww-taycancttops-kw11/normal/bae63e9f-825f-11eb-80d3-005056bbdc38;sK;twebp/porsche-normal.webp"
+                style="width:100%">
+            <div class="Info" style="text-align: left;">
+                <h1>La nouvelle Taycan GTS</h1>
+            </div>
+        </div>
+
+        <!-- Bouttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- Cercles -->
+    <div style="text-align:center">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div style="text-align: left;" >
+        <h1>Modèles</h1>
+    </div>
+    <table id="debutproduit">
+
+    </table>
+</body>
+
+</html>

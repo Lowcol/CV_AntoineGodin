@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-color: black;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5833f8eb46c3c41d7d96854c/1574116199910-1OJYE91OGH2LLN86N4U1/PorscheNOW_ChairmanTingMural.jpg?format=2500w');
+    background-size: cover;
+}
+
+form {
+    margin-top:18%;
+    margin-left:60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+
+h1{
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+section{
+    margin-top: 20px;
+}
+
+.form-rows {
+    position: static;
+    display: block;
+  }
+
+  .labels {
+    color: white;
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+
+  .input-fields {
+    height: 40px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+  }
+
+  .button {
+    font-size: 1em;
+    background-color: red;
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 60px;
+    width: 280px;
+    margin: 10px;
+  }

@@ -1,0 +1,60 @@
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+td, th, tr {
+    border: 2px solid black;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.edit {
+  float: right;
+  background: rgb(0, 68, 255);
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  height: 20px;
+  width: 40px;
+}
+
+.edit:hover {
+  background: rgb(19, 0, 128);
+}
+
+
+.annuler {
+    float: right;
+    background: red;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    height: 20px;
+    width: 75px;
+  }
+
+  .annuler:hover {
+    background: maroon;
+  }
+
+
+  .save {
+    float: right;
+    background: rgb(0, 206, 0);
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    height: 20px;
+    width: 75px;
+  }
+
+  .save:hover {
+    background: rgb(0, 70, 0);
+  }
